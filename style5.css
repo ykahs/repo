@@ -1,0 +1,200 @@
+.container{
+    display: grid;
+    margin: auto;
+    grid-template-columns:400px 400px 200px;
+    grid-template-rows: 100px 600px 100px 100px  100px;
+    height: 2500px;;
+    width: 1400px;
+
+    padding:20px; 
+    font-size: 30px;
+    
+}
+.rest{
+    height: 40px;
+    width: 40px;
+    grid-column-start: 1;
+}
+.login{
+    background-color: #74fa0d;
+    border-radius: 20px;
+    border: 1px solid #09fc0d;
+}
+.login{
+    grid-column-start: 5;
+}
+.download{
+    display: grid;
+    width: 100vh;
+    grid-template-columns: 500px 100px 100px 400px;
+}
+.sloath{
+    height: 600px;
+    width: 400px;
+}
+.mother{
+    background-color: yellow;
+    width: 600px;
+    height: 600px;
+    grid-column-start:3;
+}
+.father{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    grid-column-start:1;
+    grid-column-end:2;
+}
+h1{
+    font-size: 50px;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+.footer{
+    display: grid;
+    padding-left: 10px;
+
+     background-color: black;
+     grid-template-columns: 400px 400px 400px;
+     color: aliceblue;
+     height: 500px;
+     width: 1400px;
+     margin-top:110px;
+     
+}
+.sad{
+     padding-left: 100px;
+}
+
+.home>h1{
+    font-size: 30px;
+
+}
+.house>h1{
+    font-size: 30px;
+}
+.banglow>h1{
+    font-size: 30px;
+}
+.home>p{
+    font-size: 20px;
+    color: burlywood;
+}
+.house>p{
+    font-size: 20px;
+    color: burlywood;
+}
+.banglow>p{
+    font-size: 20px;
+    color: burlywood;
+}
+.atom{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+.mree{
+    display: grid;
+    grid-template-columns:600px 500px 400px ;
+    margin-top: 100px;
+    font-size: 5px;
+    color: black;
+}
+
+
+.ram{
+    grid-column-start: 1;
+    border-radius: 20px;
+    border-bottom:none;
+    height: 200px;
+    
+}
+.rom{
+    grid-column-start: 2;
+    border-radius: 20px;
+    border-bottom:none;
+    height: 200px;
+}
+.dam{
+    grid-column-start: 3;
+    border-radius: 20px;
+    border-bottom:none;
+    height: 200px;
+}
+.night{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 349px;
+   height: 300px;
+
+}
+.night>h1{
+    font-size: 30px;
+    text-align: center;
+}
+.morning{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+.morning>h1{
+    font-size: 30px;
+    text-align: center;
+}
+.evening{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+.evening>h1{
+    font-size: 30px;
+    text-align: center;
+}
+.lower{
+    grid-template-columns:100px 100px 100px 100px 100px;
+    background-color: black;
+    display: grid;
+    grid-row-start: 11;
+    height: 500px;
+    width: 1400px;
+}
+.logo{
+
+    background-color: black;
+    border-radius: 100%;
+    padding: 100px 200px;
+    height: 200px;
+}
+.local{
+
+   padding-left:500px;
+   color: white;
+}
+.global{
+
+   padding-left: 800px;
+   color: white;
+}
+.bomb{
+
+    padding-top: 10px;
+    color: chocolate;
+}
+.last{
+    color: #09fc0d;
+    padding-top: 1550px;
+    position: relative;
+    left: 150px;
+  
+ }
